@@ -1,2 +1,2 @@
 # FirstProject
-GUI zum bestimmen des passendsten Energy Harvesters anhand der vorhandenen Energien.
+Erstes Projekt, welches nur als Dummy verwendet wird. Zum Ausprobieren der Funktionen in GitHub.
