@@ -1,0 +1,41 @@
+Tool (vielleicht Pythonbasiert?) mit GUI um erntbare Energien grob abschätzen zu können. Exportierbar, um es auf der Webseite auch anbieten zu können? Was sollte man dort alles eingeben können:
+
+Grobe Dimensionen des Harvesters
+Temperaturgradient
+Sonnenlicht/Raumlicht
+Beschleunigungen für Vibration
+Wind
+Radiofrequency (RF)
+
+ 
+
+Auf welche Energien zielen wir im Projekt ab? (Vibration, TEG, PV)
+
+ 
+
+Auswertung der erntbaren Energien:
+
+Vibration (elektromagnetisch / Piezo)
+TEG ( Seebeck / Peltier )
+Licht (PV)
+Wind (Micro wind turbines)
+
+ 
+
+ 
+
+Datenbank mit Kennwerten (Effizienz, …) der Energy Harvester anlegen. Wo bekommen wir die Infos her?
+TEG vermutlich FHG-IIS
+Vibration (Elektromagnetisch) von INS
+PV FHG-IIS + CSEM
+Rest?
+
+ 
+
+ 
+
+Vielleicht als zukunftsausblick:
+
+Energiespeicher mit betrachten
+Energieverbrauch für Anwendungsfalel abschätzen: Energie für Messung, Wie oft muss ich Messen, wie oft muss ich die Ergebnisse funken, wieviel Energie für einmalige Datenübertragung
+ 
