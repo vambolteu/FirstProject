@@ -18,7 +18,12 @@ im=Image.open("powerlogo.png").resize((100,100))
 photo=ImageTk.PhotoImage(im)
 
 
-lab1=ttk.Label(window, text="dies ist ein Logo", image=photo, compound="top")
+# lab1=ttk.Label(window, text="dies ist ein Logo", image=photo, compound="top")
+lab1=ttk.Label(window)
+lab1["text"]="neuer Text"
+lab1["image"]=photo
+lab1["compound"]="bottom"
+
 lab1.pack()
 
 #print(lab1.keys()) gibt uns alle möglichen keys auf der Konsole aus 
@@ -29,6 +34,9 @@ lab1.pack()
 # lab1.pack()
 
 # lab1.configure(text="Hello World")
+
+for item in lab1.keys():
+    print(item, ": ", lab1[item])
 
 window.mainloop()
 

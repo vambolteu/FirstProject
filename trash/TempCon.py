@@ -7,6 +7,7 @@ Created on Mon Jul 10 11:40:48 2023
 
 import tkinter as tk
 
+###############################################################
 def fahrenheit_to_celsius():
     """Convert the value for Fahrenheit to Celsius and insert the
     result into lbl_result.
@@ -14,7 +15,7 @@ def fahrenheit_to_celsius():
     fahrenheit = ent_temperature.get()
     celsius = (5 / 9) * (float(fahrenheit) - 32)
     lbl_result["text"] = f"{round(celsius, 2)} \N{DEGREE CELSIUS}"
-
+######################################################################
 
 
 
